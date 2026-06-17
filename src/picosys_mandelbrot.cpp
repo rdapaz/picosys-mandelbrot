@@ -1,5 +1,9 @@
 #include "picosystem.hpp"
 #include "tiny_mandelbrot.hpp"
+#include "launcher_app.h"
+
+// Names this image in the launcher menu (harmless when run standalone).
+LAUNCHER_DECLARE_APP("Mandelbrot", 1);
 
 #define BENCHMARK_A (0xffd8849c)
 #define BENCHMARK_B (0xfef822ee)
